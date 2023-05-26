@@ -1,0 +1,46 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você veio aqui",
+      "autoria": "Anderson",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 3,
+      "conteudo": "Ui Ux",
+      "autoria": "Cosme",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Studying Next.js",
+      "autoria": "Alura",
+      "modelo": "modelo1",
+      "id": 4
+    },
+    {
+      "conteudo": "Python",
+      "autoria": "Alura",
+      "modelo": "modelo2",
+      "id": 5
+    },
+    {
+      "conteudo": "testando",
+      "autoria": "aquiou",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Aqui",
+      "autoria": "oiee",
+      "modelo": "modelo3",
+      "id": 7
+    },
+    {
+      "conteudo": "My life",
+      "autoria": "lifemore",
+      "modelo": "modelo2",
+      "id": 8
+    }
+  ]
+}
