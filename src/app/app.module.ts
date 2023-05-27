@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { RodapeComponent } from './components/rodape/rodape.component';
 import { CriarPensamentoComponent } from './components/pensamentos/criar-pensamento/criar-pensamento.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from './components/pensamentos/listar-pensamento/listar-pensamento.component';
@@ -18,23 +17,21 @@ import { BotaoCarregarMaisComponent } from './components/pensamentos/listar-pens
   declarations: [
     AppComponent,
     HeaderComponent,
-    RodapeComponent,
     CriarPensamentoComponent,
     ListarPensamentoComponent,
     PensamentoComponent,
     ExcluirPensamentoComponent,
     EditarPensamentoComponent,
-    BotaoCarregarMaisComponent
+    BotaoCarregarMaisComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
